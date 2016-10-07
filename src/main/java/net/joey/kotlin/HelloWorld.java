@@ -48,6 +48,8 @@ public class HelloWorld {
         example.addName(null);
         example.addName("Joey");
 
-        log.info(example.getJoinedGreeting());
+        log.info("new instance result: {}", example.getJoinedGreeting());
+
+        log.info("new instance result with param: {}", example.getJoinedGreeting(new String[]{"해리", "샐리"}));
     }
 }
