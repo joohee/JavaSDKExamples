@@ -4,6 +4,11 @@ import lombok.extern.slf4j.Slf4j;
 import net.joey.KotlinGreetingJoiner;
 
 /**
+ * JVM 위에서 돌아가는 bytecode로 컴파일 되는 Kotlin언어로 작성된 클래스 메서드를 사용하는 예제입니다
+ *
+ * 1. new KotlinClass() 로 직접 호출
+ * 2. Reflection을 이용하여 호출
+ *
  * Created with java_sdk_examples.
  * User: neigie
  * Date: 2016. 10. 7.

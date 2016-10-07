@@ -8,6 +8,8 @@ import java.lang.invoke.MethodType;
 import java.math.BigDecimal;
 
 /**
+ * MethodHandle에서 제공하는 메서드 사용 예제입니다.
+ *
  * Created with Java8ConcurrencyFeatures.
  * User: neigie
  * Date: 2016. 10. 5.

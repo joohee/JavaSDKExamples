@@ -10,6 +10,12 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
+ * java.lang.reflect.* 및 java.lang.invoke.*  아래 클래스를 사용하여
+ * argument로 받은 class, constructor param, methodName, methodParams를 생성/사용하는 예제입니다.
+ *
+ * java.lang.reflect.Method.getMethod()
+ * java.lang.invoke.MethodHandles.findVirtual()
+ *
  * Created with java_sdk_examples.
  * User: neigie
  * Date: 2016. 10. 7.

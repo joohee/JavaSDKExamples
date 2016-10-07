@@ -10,6 +10,8 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 /**
+ * java.lang.reflect 패키지의 클래스 메서드를 사용하는 예제입니다.
+ *
  * Created with Java8ConcurrencyFeatures.
  * User: neigie
  * Date: 2016. 10. 5.
@@ -81,7 +83,6 @@ public class ReflectMain {
 
                     Object value = field.get(rent);
                     log.info("Value of field {} is {}", fieldName, value);
-
                 }
 
                 // How to access private member fields of the class.
@@ -100,7 +101,6 @@ public class ReflectMain {
 
                 String fieldValue = (String)privateField.get(rent);
                 log.info("fieldValue: {}", fieldValue);
-
 
             } catch (InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchFieldException e) {
                 e.printStackTrace();
